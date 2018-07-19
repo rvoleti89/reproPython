@@ -91,6 +91,9 @@ target/
 # IPython NB Checkpoints
 .ipynb_checkpoints/
 
+# Pytest
+.pytest_cache/
+
 # exclude compiled binaries
 bin/
 
