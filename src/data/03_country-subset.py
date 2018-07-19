@@ -6,6 +6,14 @@ import datetime
 
 import pandas as pd
 
+def get_mean_price(filename):
+    """
+    function to get the mean price of the wines rounded to 4 decimal places
+    """
+    wine = pd.read_csv(filename)
+    mean_price = wine['price'].mean()
+    return round(mean_price, 4)
+
 
 def get_country(filename, country):
     """
