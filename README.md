@@ -27,3 +27,5 @@ Project Organization
         ├── models
         ├── tools
         └── visualization
+
+Linked from [this PyCon 2018 talk](https://github.com/trallard/ReproduciblePython)
