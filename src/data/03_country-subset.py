@@ -36,8 +36,7 @@ def get_country(filename, country):
 
     # Use the country name to subset data
     subset_country = wine[wine['country'] == country ].copy()
-
-    # Subset the
+    subset_country.reset_index(drop=True, inplace=True) 
 
     # Constructing the fname
     today = datetime.datetime.today().strftime('%Y-%m-%d')
