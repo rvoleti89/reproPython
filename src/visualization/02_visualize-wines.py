@@ -6,6 +6,7 @@ wines distribution using a subset data
 
 import sys
 import datetime
+import os
 
 import pandas as pd
 import numpy as np
