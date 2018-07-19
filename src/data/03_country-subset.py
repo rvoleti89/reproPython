@@ -46,7 +46,9 @@ def get_country(filename, country):
     # Saving the csv
     subset_country.to_csv(fname, index =False)
     
-    return(fname)
+    print(fname) # prints the fname from here
+    
+    return(subset_country) # returns the data frame
 
 
 if __name__ == '__main__':
