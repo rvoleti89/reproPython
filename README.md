@@ -29,3 +29,6 @@ Project Organization
         └── visualization
 
 Linked from [this PyCon 2018 talk](https://github.com/trallard/ReproduciblePython)
+
+[![DOI](https://zenodo.org/badge/141516183.svg)](https://zenodo.org/badge/latestdoi/141516183)
+
